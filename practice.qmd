@@ -1,0 +1,74 @@
+---
+title: "Metropolis"
+subtitle: "A modern beamer theme"
+author: "Yosuke Abe"
+date: last-modified
+institute: OSIPP, Osaka University
+format: 
+    revealjs: 
+      standalone: true
+      theme: 
+        - default
+        - metropolis.scss
+      slide-number: true
+      date-format: long
+---
+
+## Hello
+
+This slide is made by Quarto
+
+```{r}
+#| echo: true
+
+x <- 100
+x + pi
+```
+
+::: {.callout-note}
+[This is a note]{.alert}
+:::
+
+## Hello
+
+> He said such a thing.
+
+See the @fig-cars.
+
+```{r}
+#| label: fig-cars
+#| fig-cap: "Cars"
+
+plot(cars)
+```
+
+## Table
+
+See the @tbl-cars.
+
+```{r}
+#| label: tbl-cars
+#| tbl-cap: "Cars"
+
+gt::gt(mtcars[1:5, 1:5])
+```
+
+## List
+
+Unordered list
+
+- Item 1
+
+    - Item 2
+
+- Item 3
+
+    - Item 4
+    
+Ordered list
+
+1. Item 1
+
+2. Item 2
+
+3. Item 3
