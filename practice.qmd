@@ -1,6 +1,6 @@
 ---
-title: "Metropolis"
-subtitle: "A modern beamer theme"
+title: "Modern Theme"
+subtitle: "for Quarto users"
 author: "Yosuke Abe"
 date: last-modified
 institute: OSIPP, Osaka University
