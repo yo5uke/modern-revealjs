@@ -9,7 +9,7 @@ format:
       standalone: true
       theme: 
         - default
-        - metropolis.scss
+        - modern_theme.scss
       slide-number: true
       date-format: long
 ---
